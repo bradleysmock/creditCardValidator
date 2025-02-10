@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eb4aefb-5a32-4a98-adcf-756a026b7caa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scratch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/market-research.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/americanExpressCardValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/cardValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/discoverCardValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/luhnsAlgorithm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/mastercardCardValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardValidators/visaCardValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cardValidators/cardValidator.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cardValidators/discoverCardValidator.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cardValidators/mastercardCardValidator.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cardValidators/visaCardValidator.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2sh3HFlFDEFLEvfbKdWkCXHUUEz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Jest.All Tests.executor": "Run",
+    "Jest.Card Validator (1).executor": "Run",
+    "Jest.Card Validator.executor": "Run",
+    "Jest.Card Validator.is a credit card number: %s.executor": "Run",
+    "Jest.Card Validator.isMasterCard %s.executor": "Debug",
+    "Jest.Unnamed.executor": "Run",
+    "Jest.isDiscover %s.executor": "Run",
+    "Jest.isMasterCard %s.executor": "Run",
+    "Jest.isVisa %s.executor": "Run",
+    "Jest.isVisa.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bradley/WebstormProjects/scratch/src/cardValidators",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/bradley/WebstormProjects/scratch/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/bradley/WebstormProjects/scratch/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cardValidators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/cardValidators" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/cardValidators/luhnsAlgorithm.ts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.All Tests">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <jest-options value="--watch" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Card Validator (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/cardValidators/visaCardValidator.spec.ts" />
+      <test-names>
+        <test-name value="Card Validator" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Card Validator" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/index.spec.ts" />
+      <test-names>
+        <test-name value="Card Validator" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Card Validator.is a credit card number: %s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/cardValidators/cardValidator.spec.ts" />
+      <test-names>
+        <test-name value="Card Validator" />
+        <test-name value="is a credit card number: %s" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Card Validator.isMasterCard %s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.spec.ts" />
+      <test-names>
+        <test-name value="Card Validator" />
+        <test-name value="isMasterCard %s" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isDiscover %s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.spec.ts" />
+      <test-names>
+        <test-name value="isDiscover %s" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Card Validator.is a credit card number: %s" />
+      <item itemvalue="Jest.Card Validator (1)" />
+      <item itemvalue="Jest.Card Validator" />
+      <item itemvalue="Jest.Card Validator.isMasterCard %s" />
+      <item itemvalue="Jest.isDiscover %s" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Card Validator.is a credit card number: %s" />
+        <item itemvalue="Jest.Card Validator (1)" />
+        <item itemvalue="Jest.Card Validator.isMasterCard %s" />
+        <item itemvalue="Jest.Card Validator" />
+        <item itemvalue="Jest.isDiscover %s" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eb4aefb-5a32-4a98-adcf-756a026b7caa" name="Changes" comment="" />
+      <created>1738893889792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738893889792</updated>
+      <workItem from="1738893890841" duration="14454000" />
+      <workItem from="1739104846230" duration="182000" />
+      <workItem from="1739105033226" duration="14703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
