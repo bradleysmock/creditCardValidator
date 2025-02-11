@@ -2,6 +2,8 @@ import {LuhnsAlgorithm} from "./luhnsAlgorithm";
 
 export abstract class CardValidator {
 
+    static cardTypeName: string;
+
     /**
      * Use company-specific criteria and length to determine if a credit card number is valid.
      * @param cardNumber {number} credit card number as number without any spaces or dashes

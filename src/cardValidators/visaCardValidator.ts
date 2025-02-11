@@ -2,6 +2,8 @@ import {CardValidator} from "./cardValidator";
 
 export class VisaCardValidator implements CardValidator {
 
+    static cardTypeName: string = 'Visa';
+
     private static readonly validRanges = {
         "13": { minValue: 4000000000000, maxValue: 4999999999999 },
         "16": { minValue: 4000000000000000, maxValue: 4999999999999999 },
