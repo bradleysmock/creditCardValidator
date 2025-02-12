@@ -70,4 +70,4 @@ Outputs:
     Value: !GetAtt CreditCardValidatorFunction.Arn
   CreditCardValidatorFunctionIamRole:
     Description: Implicit IAM Role created for Credit Card Validator function
-    Value: !GetAtt CreditCardValidatorRole.Arn
+    Value: !GetAtt CreditCardValidatorFunctionRole.Arn
