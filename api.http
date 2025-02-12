@@ -4,40 +4,22 @@ Accept: application/json
 Content-Type: application/json
 
 
-### POST to validate a Visa number
-POST {{baseUrl}}/number
-Accept: application/json
-Content-Type: application/json
-
-{
-  "numberToValidate": 4123456789012345
-}
-
-### POST to validate a Mastercard number
-POST {{baseUrl}}/number
-Accept: application/json
-Content-Type: application/json
-
-{
-  "numberToValidate": 5100000000000000
-}
-
-### POST to validate a Discover number
-POST {{baseUrl}}/number
-Accept: application/json
-Content-Type: application/json
-
-{
-  "numberToValidate": 6011456789012345
-}
-
 ### POST to validate a number
+< {%
+    request.variables.set("numberToValidate", [ // test data
+        4123456789012345, // Visa
+        5100000000000000, // Mastercard
+        6011456789012345, // Discover
+        1011456789012345, // Other
+    ])
+%}
+
 POST {{baseUrl}}/number
 Accept: application/json
 Content-Type: application/json
 
 {
-  "numberToValidate": 1011456789012345
+  "numberToValidate": {{$.numberToValidate}}
 }
 
 ### Check the 404 handler

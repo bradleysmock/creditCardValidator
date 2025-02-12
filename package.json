@@ -1,7 +1,8 @@
 {
-  "name": "scratch",
+  "name": "creditcardvalidator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple credit card number validator to determine if a given number is a possibly valid credit card and which type of card it is.",
+  "author": "Bradley Smock - bradleysmock@gmail.com",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +10,6 @@
     "test": "jest",
     "lint": "eslint '*.ts' --quiet --fix",
     "sam-build": "sam build",
-    "sam-invoke": "sam local invoke CreditCardValidatorFunction --event events/event.json",
     "start": "sam local start-api",
     "deploy": "sam deploy --guided"
   },

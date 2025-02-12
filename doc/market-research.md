@@ -71,9 +71,12 @@ Info aggregated from various online sources.
 
 ### Custom Implementation
 
-| Advantages | Disadvantages |
-|------------|---------------|
-| a          | b             |
+| Advantages                                           | Disadvantages                                        |
+|------------------------------------------------------|------------------------------------------------------|
+| Most customizable in technology choices and features | Longer implementation time than a SaaS solution      |
+| Control over process and technology end to end       | Maintenance costs and resources required             |
+| Can grow with the company needs                      | Responsible for security governance and remediation  |
+| -                                                    | In-house expertise required for robust solution      |
 
 ### SaaS-Solution
 
@@ -89,6 +92,12 @@ Some popular vendors include Stripe, Klarna, Amazon Pay, and Apple Pay.
 | Validation complexities and changes off-loaded to specialists | Additional cost for vendor                      |
 | Validation integrated with payment system                     | External integration and networking requirement |
 | May offer additional services for future growth               | -                                               |
+
+## Recommendation
+
+Unless our company specializes in credit card processing, the recommendation is to adopt a SaaS service that offers 
+expert validation and processing.
+
 
 ## References
 
